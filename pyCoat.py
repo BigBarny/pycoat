@@ -13,16 +13,6 @@ import sys
 import os
 import numpy as np
 
-from scipy.interpolate import UnivariateSpline
-from scipy.optimize import curve_fit, leastsq, least_squares, minimize
-from scipy.interpolate import interp1d
-from scipy import integrate as TG
-import scipy.constants as sc
-import sqlite3
-from pathlib import Path
-import ruamel.yaml as ryaml
-import tmm
-
 import math as m
 import cmath as cm
 import scipy.integrate as integrate
